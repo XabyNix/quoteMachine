@@ -1,0 +1,42 @@
+#wrapper {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background-color: var(--myColor);
+}
+#wrapper,
+#wrapper * {
+	transition: all 0.5s;
+}
+
+#quote-box {
+	background-color: white;
+	width: 450px;
+	color: var(--myColor);
+	padding: 2rem;
+}
+.button {
+	padding: 1rem;
+	color: white;
+	border: none;
+	background-color: var(--myColor);
+}
+.button:hover {
+	cursor: pointer;
+}
+.buttonWrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+#text {
+	font-size: 1.75em;
+}
+#author {
+	text-align: end;
+	margin: 1rem 0;
+}
+/* #new-quote {
+}
+#tweet-quote {
+} */
